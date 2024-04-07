@@ -1,0 +1,78 @@
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(252, 243, 234)
+}
+.rooms {
+    width: 80%;
+    margin: 0 auto 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+h1 {
+    
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 35px;
+    margin: 0;
+}
+
+
+
+.hotels{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+margin: 50px auto;
+padding: 20px;
+border: 2px solid;
+
+}
+img{
+  width: 100%;
+ 
+}
+.img{
+    margin: 20px;
+}
+.address{
+    margin: 10px auto;
+}
+
+a.btn-see{
+   background-color: #0d6dfe;
+   color: white;
+   padding: 6px 12px;
+ text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form{
+    max-width: 700px;
+margin: 30px auto;
+
+}
+input{
+
+    margin-right: 30px;
+}
+.search{
+    
+display: flex;
+justify-content: center;
+gap: 30px;
+margin-top: 30px;
+
+
+}
