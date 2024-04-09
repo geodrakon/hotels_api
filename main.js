@@ -12,6 +12,8 @@ let inputMax = document.querySelector("#max");
 let min;
 let max;
 
+
+
         btn.addEventListener("click", function() {
             min = parseInt(inputMin.value);
             max = parseInt(inputMax.value);
